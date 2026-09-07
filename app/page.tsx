@@ -10,10 +10,8 @@ import {
   ChevronRight,
   Code2,
   Database,
-  Github,
   GraduationCap,
   Globe2,
-  Linkedin,
   Mail,
   MapPin,
   Menu,
@@ -440,7 +438,7 @@ export default function Home() {
                 aria-label="LinkedIn"
                 className="rounded-full border border-white/10 p-2 transition hover:bg-white/10"
               >
-                <Linkedin size={17} />
+                <h4>LinkedIn</h4>
               </a>
               <a
                 href="https://github.com/SulemanGill"
@@ -449,7 +447,7 @@ export default function Home() {
                 aria-label="GitHub"
                 className="rounded-full border border-white/10 p-2 transition hover:bg-white/10"
               >
-                <Github size={17} />
+                <h4>GitHub</h4>
               </a>
               <a
                 href="mailto:sulemang191@gmail.com"
